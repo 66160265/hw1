@@ -36,13 +36,19 @@ nav ul li a {
     font-size: 18px;
 }
 
+nav ul li a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
 .hero {
+    margin: 4em;
     text-align: center;
 }
 
 .highlights {
+    margin-top: 4em;
     text-align: center;
-    border: 2px linen;
 }
 
 section.highlights p {
@@ -52,6 +58,9 @@ section.highlights p {
 img {
     width: 960px;
     height: 640px;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: #333;
 }
 
 footer p {
