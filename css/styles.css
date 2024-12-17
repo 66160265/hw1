@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-flex;
     margin: 0 15px;
 }
 
@@ -41,13 +41,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-.hero {
-    margin-top: 4em;
+section.hero {
+    margin-top: 2em;
     margin-bottom: 2em;
     text-align: center;
 }
 
-.hero p {
+section.hero h1 {
+    font-size: 25px;
+}
+
+section.hero p {
     font-size: 21px;
 }
 
@@ -69,4 +73,32 @@ img {
 
 footer p {
     text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+article p {
+    margin: 2em 29em 3em;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
 }
