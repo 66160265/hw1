@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*ตั้งค่าทั่วไป*/
 body{
     font-family: "Prompt", sans-serif;
     font-weight: 400;
@@ -9,6 +10,7 @@ body{
     background-color: #f8f8f8;
 }
 
+/*ตั้งค่าส่วนหัวของหน้าเว็บ*/
 header {
     background: #333;
     color: #fff;
@@ -20,6 +22,7 @@ header h1 {
     font-size: 35px;
 }
 
+/*เมนูนำทาง*/
 nav ul {
     list-style: none;
     padding: 0;
@@ -41,6 +44,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/*ตั้งค่าส่วนของ section hero*/
 section.hero {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -55,6 +59,7 @@ section.hero p {
     font-size: 21px;
 }
 
+/*ตั้งค่าส่วนที่มี class highlights*/
 .highlights {
     text-align: center;
 }
@@ -63,6 +68,7 @@ section.highlights p {
     margin: 2em 29em 3em;
 }
 
+/*ตั้งค่ารูปภาพ*/
 img {
     width: 960px;
     height: 640px;
@@ -71,10 +77,12 @@ img {
     border-color: #333;
 }
 
+/*ตั้งค่า footer ให้อยู่ตรงกลาง*/
 footer p {
     text-align: center;
 }
 
+/*ตั้งค่า article*/
 article {
     text-align: center;
 }
@@ -83,6 +91,7 @@ article p {
     margin: 2em 29em 3em;
 }
 
+/*ตั้งค่า main*/
 main h1 {
     text-align: center;
     font-size: 25px;
@@ -90,10 +99,12 @@ main h1 {
     margin-bottom: 2em;
 }
 
+/*ตั้งค่า form ให้อยู่ตรงกลาง*/
 form {
     text-align: center;
 }
 
+/*ตั้งค่าปุ่ม*/
 button {
     cursor: pointer;
     transition: background-color 0.3s ease;
